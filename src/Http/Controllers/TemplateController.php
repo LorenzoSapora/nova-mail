@@ -3,7 +3,7 @@
 namespace KirschbaumDevelopment\NovaMail\Http\Controllers;
 
 use Illuminate\Routing\Controller;
-use KirschbaumDevelopment\NovaMail\Models\NovaMailTemplate;
+use App\Models\NovaMailTemplate;
 
 class TemplateController extends Controller
 {
