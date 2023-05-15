@@ -1,10 +1,5 @@
 <template>
   <div>
-    <div class="py-3 px-8">
-      <p class="leading-normal help-text">
-        Adjust an existing mail template or craft an email from scratch! You can use normal blade syntax and include attributes from this resources model&hellip;
-      </p>
-    </div>
     <div v-if="hasTemplates">
       <DefaultField :field="field" fieldName="Mail Template">
         <template #field>
